@@ -15,7 +15,7 @@ let package = Package(
         .target(
             name: "PhoneNumberFormatter",
             dependencies: [],
-            path: "PhoneNumberFormatter/PhoneNumberFormatter",
+            path: "PhoneNumberFormatter",
             sources: ["Sources"]
         ),
         .testTarget(
