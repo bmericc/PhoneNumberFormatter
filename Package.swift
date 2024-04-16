@@ -21,8 +21,8 @@ let package = Package(
         .testTarget(
             name: "PhoneNumberFormatterTests",
             dependencies: ["PhoneNumberFormatter"],
-            path: "PhoneNumberFormatter",
-            sources: ["PhoneNumberFormatterTests/Sources"]
+            path: "PhoneNumberFormatterTests",
+            sources: ["PhoneNumberFormatterTests"]
         ),
     ]
 )
